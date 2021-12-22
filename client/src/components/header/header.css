@@ -1,0 +1,16 @@
+/* backgroundImage { `url(${cairnStones} }
+backgroundSize: 'cover',
+height: '300px', 
+width: '100%',
+backgroundColor: 'rgb(16, 12, 10)',   
+backgroundPosition: "12% 38%",   */
+
+
+.header {
+    background-image: url("../images/cairnstonesbsb2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(16px, 12px, 10px);
+    background-position: 12% 35%
+}

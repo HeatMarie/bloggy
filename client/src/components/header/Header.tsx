@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import cairnStones from './images/cairnstonesbsb2.jpg'
+import './header.css'
+
 
 const Header = () => (
     <div>
-        <p>Hello from Header</p>
-        <div className="image"></div>
+        <div className="header"></div>
     </div>
 );
 
