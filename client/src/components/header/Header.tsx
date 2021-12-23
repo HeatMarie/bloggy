@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './header.css'
 
 
-const Header = () => (
+const Header: React.FC = () => (
     <div>
         <div className="header"></div>
     </div>
