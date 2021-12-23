@@ -1,0 +1,27 @@
+/* variant="h6"
+noWrap
+component="div"
+sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} */
+
+.logo {
+    font-variant: h6;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    color: green;
+
+
+}
+
+@media screen and (max-width: 1500px){
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .logo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
